@@ -1,0 +1,48 @@
+body {
+    background-image: url("../assets/court.jpg");
+    background-size: cover;
+    padding: 30px;
+}
+
+#home-pts, #away-pts {
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: #FFA500;
+    max-width: 500px;
+    max-height: 500px;
+    text-align: center;
+    padding: 10px;
+    float: right;
+    font-family: 'Tahoma';
+    margin: 15px;
+}
+
+#home-title, #away-title {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #005AFF;
+}
+
+#pts-container {
+    display: grid;
+    place-items: center;
+}
+
+#home-score, #away-score {
+    font-weight: bold;
+    background-color: #005AFF;
+    color: white;
+    border: 1px solid #005AFF;
+    text-align: center;
+    border-width: 10px;
+}
+
+
+button {
+    background-color: #CC8400;
+    color: white;
+}
+
+#home-reset, #away-reset {
+    background-color: #FF2600;
+}
